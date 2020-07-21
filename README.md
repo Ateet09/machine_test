@@ -1,6 +1,6 @@
 # machinetest
 
-A nice project with a nice description
+First Project on typescript RESTApi 
 
 ---
 ## Requirements
