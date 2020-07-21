@@ -6,7 +6,7 @@ export class CartControllers{
 
     static async addProducts(req, res) {
     try {
-      let result = await CartServices.addProducts(req.body);
+      let result = await CartServices.addProducts(req);
       return res.status(200).send(result);
     }
     catch (err) {
@@ -21,7 +21,7 @@ export class CartControllers{
  
   static async getProductByUser(req, res) {
     try {
-      let result = await CartServices.getProductsById(req.query);
+      let result = await CartServices.getProductsById(req);
       console.log(result)
       return res.status(200).send(result);
     }
