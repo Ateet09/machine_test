@@ -1,6 +1,6 @@
 # machinetest
 
-First project RESTApi on typescript, mysql
+A nice project with a nice description
 
 ---
 ## Requirements
@@ -37,12 +37,29 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 
 ## Install typescript
-npm install
+
 npm install -g typescript
 tsc -v
 
 
+
+## Install
+
+    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+    $ cd PROJECT_TITLE
+    $ yarn install
+
+## Configure app
+
+Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+
+- A setting;
+- Another setting;
+- One more setting;
+
 ## Running the project
+
+    $ npm install
     $ tsc
     $ node lib/app.js
 
